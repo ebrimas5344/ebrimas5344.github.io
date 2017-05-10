@@ -1,5 +1,10 @@
 h1{
    color:red;
-   opacity: 0.25;
+   opacity: 0.75;
    font-size: 40px;
 }
+h2{ color:blue;
+   opacity: 0.75;
+   font-size: 40px;
+}
+   
