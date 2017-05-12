@@ -8,3 +8,7 @@ h2{ color:blue;
    font-size: 25px;
 }
    
+p{
+   position:relative
+      left: 20px
+}
