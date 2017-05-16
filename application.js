@@ -5,5 +5,5 @@ $(document).ready(function(){
   
   $(document).ready(function(){
   $('button').click(function(){
-    $('p').css('color','white');
+    $('p').css('color','purple');
 });
