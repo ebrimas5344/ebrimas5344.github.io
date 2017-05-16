@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(button).click(function(){
-    $(body).css('background-color','purple');
+  $('button').click(function(){
+    $('p').css('color','purple');
   });
 });
