@@ -4,7 +4,7 @@ $(document).ready(function(){
        	$("#submit").click(function(){
          //what did the user guess?
 		var guess= $("input[name=user-guess]").val();
-		$("#response).html('You guessed: ' + guess);
+		$("#response").html('You guessed: ' + guess);
 	//is that the correct guess?
 	
 	
