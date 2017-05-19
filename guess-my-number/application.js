@@ -20,6 +20,18 @@ $(document).ready(function(){
 		$("input[name=user-guess]").val('');
        });
 	//create click event for clear button
-        
-
+        var random_num = Math.floor((Math.random()*100) + 1);
+       	$("#clear").click(function(){
+	if(guess==random_num) {
+			$("#response").fadeOut().html('').fadeIn();
+		}
+		
+		else if(guess<random_num) {
+			$("#response").fadeOut().html('').fadeIn();
+		}
+		
+		else{
+			$("#response").fadeOut().html('').fadeIn();
+		}
+		$("input[name=user-guess]").val('');
 });
