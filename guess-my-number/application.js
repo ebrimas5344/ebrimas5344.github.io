@@ -7,16 +7,17 @@ $(document).ready(function(){
 		
 		//if guess is correct: fill #response with 'you are correct!'
 		if(guess==random_num) {
-			$("#response").html('You are correct');
+			$("#response").fadeOut().html('You are correct').fadeIn();
 		}
 		//else if guess is too low: fill #response with 'too low, guess higher!'
 		else if(guess<random_num) {
-			$("#response").html('you are too low guess higher');
+			$("#response").fadeOut().html('you are too low guess higher').fadeIn();
 		}
 		//else, fill #response with 'too high, guess lower'
 		else{
-			$("#response").html('You guessed to high, guess lower');
+			$("#response").fadeOut().html('You guessed to high, guess lower').fadeIn();
 		}
+		$("input[name=user-guess]").val('');
        });
 	//create click event for clear button
         
