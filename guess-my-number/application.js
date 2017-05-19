@@ -4,10 +4,19 @@ $(document).ready(function(){
        	$("#submit").click(function(){
          //what did the user guess?
 		var guess= $("input[name=user-guess]").val();
-		$("#response").html('You guessed: ' + guess);
-	//is that the correct guess?
-	
-	
+		
+		//if guess is correct: fill #response with 'you are correct!'
+		if(guess==random_num) {
+			$("#response").html('You are correct');
+		}
+		//else if guess is too low: fill #response with 'too low, guess higher!'
+		else if(guess<random_num) {
+			$("#response").html('you are too low guess higher');
+		}
+		//else, fill #response with 'too high, guess lower'
+		else{
+			$("#response").html('You guessed to high, guess lower');
+		}
        });
 	//create click event for clear button
         
