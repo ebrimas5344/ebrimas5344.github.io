@@ -17,7 +17,7 @@ $(document).ready(function(){
 		else{
 			$("#response").fadeOut().html('You guessed to high, guess lower').fadeIn();
 		}
-		$("input[name=user-guess]").val('');
+		$("input[name=user-guess]").val(''); 
        });
 	//create click event for clear button
         var random_num = Math.floor((Math.random()*100) + 1);
