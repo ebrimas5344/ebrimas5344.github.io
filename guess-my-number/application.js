@@ -23,7 +23,7 @@ $(document).ready(function(){
        	$("#clear").click(function(){
 		random_num = Math.floor((Math.random()*100) + 1);
 
-		$("input[name=user-guess]").val('');
+		$("input[name=user-guess]").val(''); b
 		$("#response").fadeOut().html('start again').fadeIn();
 	});
 });
