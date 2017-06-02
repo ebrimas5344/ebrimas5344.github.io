@@ -21,7 +21,7 @@ $(document).ready(function(){
   
       //populate page with cards with content from randomized array
       for(i in shuffled_array){
-          $('#card_holder').append("<div class='card'>"+i+"</div>");
+          $('#card_holder').append("<div class='card'>"+shuffled_array[i]+"</div>");
       }
   
       //general game flow, clicking on cards to reveal content
