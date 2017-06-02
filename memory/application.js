@@ -38,7 +38,7 @@ $(document).ready(function(){
               $(this).find('p').css('opacity', '1').addClass('clicked');
               second_click = $(this).find('p').text();
               if(first_click === second_click){
-                  $('.clicked').css('font-weight', 'bold').removeClass('________');
+                  $('.clicked').css('font-weight', 'bold').removeClass('clicked');
               }
               else { //this waits a second, then makes the cards invisible again
                   setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
