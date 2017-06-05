@@ -43,7 +43,7 @@ $(document).ready(function(){
               else { //this waits a second, then makes the cards invisible again
                   setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
               }
-              click_count = 0;
+              click_count = 0; 
          }
   });
   
