@@ -41,7 +41,7 @@ $(document).ready(function(){
                   $('.clicked').css('font-weight', 'bold').removeClass('clicked');
               }
               else { //this waits a second, then makes the cards invisible again
-                  setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
+                  setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000); 
               }
               click_count = 0; 
          }
