@@ -61,7 +61,6 @@ $(document).ready(function(){
                    array[randomIndex] = temporaryValue;
               }
               return array;
-           }
            var shuffled_array = shuffle(card_array);
 
            //populate page with cards with content from randomized array
